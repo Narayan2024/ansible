@@ -27,7 +27,7 @@ Variables should be passed to ansible by using the flag -e
 
     
     Ex: ansible -i INVENTORY all  -e ansible_user=userName -e ansible_password=password 
-    $ ansible -i inv all  -e ansible_user=centos -e ansible_password=xyz123 -m shell -a uptime
+    $   
 
 ```
 
