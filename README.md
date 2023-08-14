@@ -11,7 +11,6 @@ all is a group which included all the entries in INVENTORY File
 
 ANSIBLE has lot of pre-defined variables and we need to use them to supply userName and password it has to use to authenticate to the nodes.
 
-
 ### ansible_user     : Predefined variable for userName 
 ### ansible_password : Predefined variable for password  
 
