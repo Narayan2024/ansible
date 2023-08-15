@@ -6,7 +6,7 @@
         msg : Hello from play1 of task1
 
 - name  : Play1
-  hosts : prod
+  hosts : test
   tasks :
     - name : Printing Hai from Play1
       ansible.builtin.debug:
