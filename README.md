@@ -71,6 +71,7 @@ YAML is just  markup languaga ; Markup language is nothing a presentation langua
 ```
 ansible-playbook -i inventoryFileName -e ansible_user=userName -e ansible_password=password nameOfThePlaybook.yml 
 
+ansible-playbook -i inventoryFileName -e ansible_user=centos -e ansible_password=DevOps321 01-sample.yaml
 ```
 
 ### Ansible Facts :
