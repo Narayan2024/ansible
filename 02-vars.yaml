@@ -7,6 +7,8 @@
       ansible.builtin.debug:
         msg : value of URL is {{ URL }}
 
-    - name : Printing value of the variable that is not declared
+    - name : Demo to show local variables
       ansible.builtin.debug:
-        msg : name of the CAR is {{ CARNAME }}
+        msg : value of URL is {{ URL }}
+      vars :
+         URL : task.google.com
