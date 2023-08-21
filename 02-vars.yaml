@@ -16,3 +16,8 @@
     - name : Demo to show quotes
       ansible.builtin.debug:
         msg : "{{ URL }}" 
+
+  
+  # CLI variables > Local Variables > Global variables
+
+  # If you try to print a variable that is not declared it will throw an error
