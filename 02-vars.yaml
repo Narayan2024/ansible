@@ -17,9 +17,9 @@
       ansible.builtin.debug:
         msg : "{{ URL }}" 
 
-    - name : Printing prompt variable
+    - name : Printing the prompt variable
       ansible.builtin.debug:
-        msg : URL from the prompt variable is {{ URLNAME }}
+        msg : url from the prompt variable is {{ URLNAME }}
 
   
   # CLI variables > Local Variables > Global variables
