@@ -2,7 +2,7 @@
 
 - name : Demo on using facts
   hosts : all
-   tasks :
+  tasks :
     - name : Printing the fact
       ansible.builtin.debug:
         msg : ansible_distribution is {{ ansible_distribution }}
