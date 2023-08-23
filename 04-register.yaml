@@ -9,5 +9,5 @@
 
     - name: Printing the OUT variable
       ansible.builtin.debug: OUT
-      msg: "{{ OUT }}"
+       msg: "{{ OUT }}"
     
