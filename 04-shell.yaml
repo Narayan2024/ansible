@@ -4,4 +4,4 @@
   hosts : all
   tasks :
     - name : Demo on using shell module
-      ansible.builtin.debug: uptime
+      ansible.builtin.shell: uptime
