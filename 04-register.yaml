@@ -10,4 +10,10 @@
     - name: Printing the OUT variable
       ansible.builtin.debug:
        msg: "{{OUT.stdout}}"
+
+       ---
+    - name : Declaring the variable
+      set_fact:
+        STATUSCODE: {{ OUT.rc }}
+
     
