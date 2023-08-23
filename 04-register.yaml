@@ -13,7 +13,7 @@
 
     - name : Declaring the variable
       set_fact:
-        STATUSCODE: {{ OUT.rc }}
+        STATUSCODE: {{OUT.rc}}
 
     - name: Printing the uptime command exit code
       ansible.builtin.debug:
