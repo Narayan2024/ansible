@@ -3,12 +3,16 @@
 - name : Demo on using conditions
   hosts : all
   tasks :
-    - name : Run this task only when the distribution is centOS
+    - name : Run this task only when the distribution is CentOS
       ansible.builtin.debug:
-        msg : I am a centOS machine
-      when: ansible_distribution == "centOS"
+        msg : I am a CentOS machine
+      when: ansible_distribution == "CentOS"
         
     - name : Run this task only when the distribution is debian machine
       ansible.builtin.debug:
         msg :  I am a Debian machine
       when: ansible_distribution == "Debian"
+
+
+#ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 06-conditions.yaml
+
