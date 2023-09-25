@@ -6,8 +6,9 @@
     - name : Run this task only when the distribution is centOS
       ansible.builtin.debug:
         msg : I am a centOS machine
-      when: ansible_distribution == "Debian"
+      when: ansible_distribution == "centOS"
         
     - name : Run this task only when the distribution is debian machine
       ansible.builtin.debug:
         msg :  I am a Debian machine
+      when: ansible_distribution == "Debian"
